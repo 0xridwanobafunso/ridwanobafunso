@@ -107,13 +107,13 @@
                 <p class="mt-2 text-gray-700">
                   GMail:
                   <a class="text-purple-800 font-bold" href=""
-                    >obafunsoadebayo17@gmail.com</a
+                    >Obafunsoadebayo17@gmail.com</a
                   >
                 </p>
                 <p class="mt-2 text-gray-700">
                   YMail:
                   <a class="text-purple-800 font-bold" href=""
-                    >obafunsoridwan2017@yahoo.com</a
+                    >Obafunsoridwan2017@yahoo.com</a
                   >
                 </p>
               </div>
