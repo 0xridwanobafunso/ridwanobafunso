@@ -31,10 +31,10 @@
                 <p class="mt-2 text-gray-700">
                   GitHub:
                   <a
-                    href="https://github.com/ridwanobafunso"
+                    href="https://github.com/0xridwanobafunso"
                     target="_blank"
                     class="text-purple-800 font-bold"
-                    >@ridwanobafunso</a
+                    >@0xridwanobafunso</a
                   >
                 </p>
                 <p class="mt-1 text-gray-700">
@@ -107,13 +107,13 @@
                 <p class="mt-2 text-gray-700">
                   GMail:
                   <a class="text-purple-800 font-bold" href=""
-                    >Obafunsoadebayo17@gmail.com</a
+                    >obafunsoadebayo17@gmail.com</a
                   >
                 </p>
                 <p class="mt-2 text-gray-700">
                   YMail:
                   <a class="text-purple-800 font-bold" href=""
-                    >Obafunsoridwan2017@yahoo.com</a
+                    >obafunsoridwan2017@yahoo.com</a
                   >
                 </p>
               </div>
