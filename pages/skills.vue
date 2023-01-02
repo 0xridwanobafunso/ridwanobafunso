@@ -186,6 +186,27 @@
               >
                 <div class="flex-1">
                   <a href="/" class="text-lg font-bold leading-7 text-black"
+                    >Truffle</a
+                  >
+                  <p class="mt-2 text-gray-700">
+                    <a href="" target="_blank" class="text-purple-800 font-bold"
+                      >Truffle</a
+                    >
+                    is a set of development tool kits for creating smart
+                    contract. Truffle enables engineers to develop on any EVM
+                    and Ethereum JSON-RPC compatible chain. Truffle lets you
+                    build on Ethereum, Optimism, Arbitrum, Avalanche, and much
+                    more.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">
+              <div
+                class="flex flex-col flex-1 px-8 py-10 bg-white rounded-lg border border-gray-300"
+              >
+                <div class="flex-1">
+                  <a href="/" class="text-lg font-bold leading-7 text-black"
                     >Vue.js</a
                   >
                   <p class="mt-2 text-gray-700">
