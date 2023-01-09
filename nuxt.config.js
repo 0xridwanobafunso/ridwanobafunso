@@ -49,7 +49,7 @@ export default {
           'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js',
       },
       {
-        src: 'https://twemoji.maxcdn.com/v/latest/twemoji.min.js',
+        src: 'https://unpkg.com/twemoji@13.1.0/dist/twemoji.min.js',
         crossorigin: 'anonymous',
       },
       {

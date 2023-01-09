@@ -21,9 +21,10 @@
         <p class="leading-relaxed" data-aos="fade-up" data-aos-duration="1000">
           I build software that scale using the industry battle-tested
           engineering principles and approaches. I care a lot about clean code,
-          architecture, performance, testing and many more. Ridwan is always
-          eager to learn new technology stack to improve his knowledge and
-          career. My Resume can be found below. Explore it.
+          architecture, performance, testing and many more. Ridwan considers
+          programming more than just a job because he is eager to learn new
+          technology stack to improve his knowledge and career. Take a look at
+          my resume below.
         </p>
         <div class="mt-5 mb-8 flex">
           <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
