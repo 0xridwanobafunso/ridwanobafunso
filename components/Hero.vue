@@ -23,7 +23,7 @@
           engineering principles and approaches. I care a lot about clean code,
           architecture, performance, testing, etc. I am constantly seeking to
           expand my skillset and stay current with the latest programming
-          technologies. Take a look at my resume below ❤️⚡👀
+          technologies. Check out my résumé below.
         </p>
         <div class="mt-5 mb-8 flex">
           <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
