@@ -4,7 +4,7 @@
       class="container mx-auto -mt-10 md:mt-0 flex px-5 pt-20 pb-5 md:pt-10 md:flex-row flex-col items-center"
     >
       <div
-        class="lg:flex-grow md:w-full lg:pr-24 xl:-mt-10 md:pr-16 flex flex-col md:items-start md:text-left"
+        class="lg:flex-grow md:w-full l;g:pr-24 xl:-mt-10 md:pr-16 flex flex-col md:items-start md:text-left"
       >
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
@@ -19,12 +19,11 @@
           </p>
         </h1>
         <p class="leading-relaxed" data-aos="fade-up" data-aos-duration="1000">
-          I build software that scale using the industry battle-tested
+          I build software that scale using the industry battle tested
           engineering principles and approaches. I care a lot about clean code,
-          architecture, performance, testing and many more. Ridwan considers
-          programming more than just a job because he is eager to learn new
-          technology stack to improve his knowledge and career. Take a look at
-          my resume below.
+          architecture, performance, testing, etc. I am constantly seeking to
+          expand my skillset and stay current with the latest programming
+          technologies. Take a look at my resume below ❤️⚡👀
         </p>
         <div class="mt-5 mb-8 flex">
           <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
@@ -32,7 +31,7 @@
           <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
         </div>
         <a
-          href="/Obafunso Ridwan A. Resume.pdf"
+          href="/resume.pdf"
           tag="button"
           class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white bg-purple-800 rounded shadow-md hover:bg-purple-900 focus:shadow-outline focus:outline-nonee"
         >
