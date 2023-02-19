@@ -604,19 +604,7 @@
             </ul>
           </div>
         </div>
-      </div>
-
-      <div class="mt-5">
-        <small
-          >My old skills can be found at
-          <a
-            href="https://old.ridwanobafunso.com/#skills"
-            class="text-purple-800 font-bold"
-            target="_blank"
-            >https://old.ridwanobafunso.com/#skills</a
-          ></small
-        >
-      </div>
+      </div> 
     </div>
   </div>
 </template>

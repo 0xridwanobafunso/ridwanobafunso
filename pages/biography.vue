@@ -84,24 +84,19 @@
           <div class="mt-5">
             <h2 class="text-xl underline">Education</h2>
             <p>
-              He was honored with an overall best graduating student award at
-              Federal Polytechnic, Ilaro in 2019 with a CGPA of 3.71/4.00 after
-              his National Diploma Programme at the Polytechnic.
+              He was honored with one of best graduating student award (Computer
+              Science) at Federal Polytechnic, Ilaro in 2022/23 with a CGPA of
+              3.61/4.00 after his Higher National Diploma Programme at the
+              Polytechnic.
+            </p>
+            <p>
+              He was honored with an overall best graduating student award
+              (Computer Science) at Federal Polytechnic, Ilaro in 2019 with a
+              CGPA of 3.71/4.00 after his National Diploma Programme at the
+              Polytechnic.
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="mt-5">
-        <small
-          >His old biography can be found at
-          <a
-            href="https://old.ridwanobafunso.com/#about"
-            class="text-purple-800 font-bold"
-            target="_blank"
-            >https://old.ridwanobafunso.com/#about</a
-          ></small
-        >
       </div>
     </div>
   </div>
