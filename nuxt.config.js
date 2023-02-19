@@ -106,7 +106,7 @@ export default {
   },
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://www.ridwanobafunso.com',
+    hostname: 'https://www.ridwanobafunso.xyz',
     defaults: {
       changefreq: 'monthly',
       priority: 0.8,
