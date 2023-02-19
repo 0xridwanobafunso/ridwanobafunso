@@ -55,6 +55,13 @@ export default {
       {
         src: '/elevator.min.js',
       },
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-GXKYPDVYQ1',
+        async: true,
+      },
+      {
+        src: '/ga.js',
+      },
     ],
   },
   loading: {
