@@ -211,7 +211,7 @@
                   class="w-full py-2 pl-3 bg-gray-100 text-gray-900 focus:outline-none focus:bg-white border border-purple-300 rounded"
                   name=""
                   id=""
-                  placeholder="Search Suya Docs v1.0.3"
+                  placeholder="Search Telegraf-CLI Docs v1.0.3"
                 />
               </form>
             </div>
