@@ -44,14 +44,18 @@
 
           <p class="mt-5">
             He is currently working on
-            <nuxt-link class="text-purple-800 font-bold" to="/oss/suya/docs"
-              >Suya</nuxt-link
-            >, a library created for
+            <nuxt-link
+              class="text-purple-800 font-bold"
+              to="/oss/telegraf-cli/docs"
+              >Telegraf-CLI</nuxt-link
+            >, a CLI created for
             <nuxt-link class="text-purple-800 font-bold" to=""
-              >Express.js</nuxt-link
+              >Telegraf</nuxt-link
             >
-            to improve REST API performance. His works have been published on
-            popular package managers like
+            developers to simplify the development process with a streamlined
+            way to generate boilerplate code for their projects and to generate
+            bot commands. His works have been published on popular package
+            managers like
             <nuxt-link class="text-purple-800 font-bold" to="">npm</nuxt-link>
             and
             <nuxt-link class="text-purple-800 font-bold" to="">yarn</nuxt-link>.
@@ -68,8 +72,9 @@
             Education 🧑‍🎓
           </h1>
           <p class="mt-5">
-            Ridwan bagged National Diploma in Computer Science at Federal
-            Polytechnic, Ilaro which is located in Ogun, Nigeria.
+            Ridwan bagged both Higher National Diploma (HND) and National
+            Diploma (ND) in Computer Science at Federal Polytechnic, Ilaro
+            located in Ogun, Nigeria.
           </p>
         </div>
 
@@ -86,13 +91,13 @@
             <p>
               He was honored with one of best graduating student award (Computer
               Science) at Federal Polytechnic, Ilaro in 2022/23 with a CGPA of
-              3.61/4.00 after his Higher National Diploma Programme at the
+              3.61/4.00 after his Higher National Diploma (HND) Programme at the
               Polytechnic.
             </p>
-            <p>
+            <p class="mt-2">
               He was honored with an overall best graduating student award
               (Computer Science) at Federal Polytechnic, Ilaro in 2019 with a
-              CGPA of 3.71/4.00 after his National Diploma Programme at the
+              CGPA of 3.71/4.00 after his National Diploma (ND) Programme at the
               Polytechnic.
             </p>
           </div>

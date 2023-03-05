@@ -3,9 +3,9 @@
     <div class="flex flex-wrap">
       <div class="w-full hidden lg:block lg:w-1/6 h-screen overflow-y-auto p-5">
         <h1 class="mt-3 tracking-widest font-bold">
-          <span class="text-gray-900">SUYA</span>
+          <span class="text-gray-900">Telegraf-CLI</span>
           <span class="text-purple-800">DOCS</span>
-          <small class="text-gray-900"> <small>V1.0.3</small></small>
+          <small class="text-gray-900"> <small>V1.0.0</small></small>
         </h1>
         <ul class="mt-5">
           <li class="text-black font-bold">#</li>
@@ -50,73 +50,53 @@
               <li class="mt-2">
                 <nuxt-link class="text-purple-800" to="">manual</nuxt-link>
               </li>
+              <li class="mt-2">
+                <nuxt-link class="text-purple-800" to=""
+                  >Configuration</nuxt-link
+                >
+              </li>
             </ul>
-
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Why Suya?</nuxt-link>
-            </li>
           </ul>
 
           <li class="mt-5 text-black font-bold">Usage</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Node.js</nuxt-link>
-            </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Redis</nuxt-link>
-            </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Memcached</nuxt-link>
-            </li>
-          </ul>
-
-          <li class="mt-5 text-black font-bold">API</li>
-          <ul class="ml-1">
-            <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >new Suya([options])</nuxt-link
+                >Available commands</nuxt-link
               >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">#forever()</nuxt-link>
+              <nuxt-link class="text-purple-800" to="">Usage 1</nuxt-link>
             </li>
             <li class="mt-2">
+              <nuxt-link class="text-purple-800" to="">Usage 2</nuxt-link>
+            </li>
+            <li class="mt-2">
+              <nuxt-link class="text-purple-800" to="">Usage 3</nuxt-link>
+            </li>
+          </ul>
+
+          <li class="mt-5 text-black font-bold">Bot Command</li>
+          <ul class="ml-1">
+            <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >#duration([n])</nuxt-link
+                >Create Command</nuxt-link
               >
             </li>
             <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >#resetOnMutation([options])</nuxt-link
+                >Register Command</nuxt-link
               >
             </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">#close()</nuxt-link>
-            </li>
           </ul>
 
-          <li class="mt-5 text-black font-bold">Error Handling</li>
+          <li class="mt-5 text-black font-bold">Start Bot</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Express.js</nuxt-link>
+              <nuxt-link class="text-purple-800" to="">Development</nuxt-link>
             </li>
-          </ul>
-
-          <li class="mt-5 text-black font-bold">Tests</li>
-          <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Benchmark</nuxt-link>
-              <ul class="ml-1">
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Node.js</nuxt-link>
-                </li>
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Redis</nuxt-link>
-                </li>
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Memcached</nuxt-link>
-                </li>
-              </ul>
+              <nuxt-link class="text-purple-800" to="">Production</nuxt-link>
             </li>
           </ul>
         </ul>
@@ -182,7 +162,15 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/getting-started"
+                  to="/oss/telegraf-cli/docs"
+                  >Home</nuxt-link
+                >
+              </div>
+              <div class="w-1/2 sm:w-1/3">
+                #
+                <nuxt-link
+                  class="text-purple-800 font-bold"
+                  to="/oss/telegraf-cli/docs/getting-started"
                   >Getting Started</nuxt-link
                 >
               </div>
@@ -190,7 +178,7 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/usage"
+                  to="/oss/telegraf-cli/docs/usage"
                   >Usage</nuxt-link
                 >
               </div>
@@ -198,24 +186,16 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/api"
-                  >API</nuxt-link
+                  to="/oss/telegraf-cli/docs/bot-command"
+                  >Bot Command</nuxt-link
                 >
               </div>
               <div class="w-1/2 sm:w-1/3">
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/error-handling"
-                  >Error Handling</nuxt-link
-                >
-              </div>
-              <div class="w-1/2 sm:w-1/3">
-                #
-                <nuxt-link
-                  class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/tests"
-                  >Tests</nuxt-link
+                  to="/oss/telegraf-cli/docs/start-bot"
+                  >Start Bot</nuxt-link
                 >
               </div>
             </div>
@@ -271,8 +251,8 @@
                 <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
               </div>
               <code class="language-sh">
-    # install through npm
-    $ npm i suya 
+    # through npm
+    $ npm i telegraf-cli -g
               </code> 
             </pre>
                   </div>
@@ -300,8 +280,8 @@
                 <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span> 
               </div>
               <code class="language-sh">
-    # install through yarn
-    $ yarn add suya
+    # through yarn
+    $ yarn add telegraf-cli -g
               </code> 
             </pre>
                   </div>
@@ -327,17 +307,24 @@
               </div>
               <code class="language-sh">
     # clone the repo
-    $ git clone https://github.com/0xridwanobafunso/suya.git
+    $ git clone https://github.com/0xridwanobafunso/telegraf-cli.git
 
-    # install dependencies
+    # install TypeScript Compiler
+    $ npm i typescript -g
+
+    # install telegraf-cli dependencies
     $ npm i
 
     # build .ts source code(s) into .js source code(s)
-    $ tsc
+    $ npm run build
 
-    # the compiled .js code(s) and it types definitions lives in /lib directory.
-    # require the index.js file
-    # const Cache = require('./lib/index.js')
+    # the compiled .js code(s) and it types definitions lives in /dist directory.
+    
+    # symlink the cli
+    $ npm run link
+
+    # check if tcli or telegraf-cli commands available
+    $ tcli --version
               </code> 
             </pre>
                   </div>
@@ -345,21 +332,51 @@
                 </div>
               </div>
 
-              <div class="mt-10" id="package-installation">
-                <h3 class="flex text-2xl text-black font-bold underline">
-                  Why Suya? 😏
-                </h3>
-                <p class="mt-2 text-black">
-                  Short answer, <span class="font-bold">Performance</span>. If
-                  you want your Express.js API responses to be super-fast you
-                  should give suya a trial. There are various popular libraries
-                  that cache API responses but they are limited to
-                  <span class="font-bold">Redis</span> as their cache engine.
-                  What about developers' who loves Memcached? Suya works out of
-                  box with <span class="font-bold">Node.js Cache</span>,
-                  <span class="font-bold">Redis</span>, and
-                  <span class="font-bold">Memcached</span>.
+              <div class="mt-5">
+                <h4 class="text-xl text-black underline">Configuration</h4>
+                <ul class="mt-2 list-disc ml-5">
+                  <li>
+                    For development: create
+                    <span class="font-bold">dev.env</span> file and paste the
+                    content inside
+                    <span class="font-bold">example.dev.env</span> into it.
+                  </li>
+                  <li>
+                    For production: create
+                    <span class="font-bold">prod.env</span> file and paste the
+                    content inside
+                    <span class="font-bold">example.prod.env</span> into it.
+                  </li>
+                </ul>
+
+                <p class="mt-2">
+                  Open <span class="font-bold">dev.env</span> and
+                  <span class="font-bold">prod.env</span> and update your
+                  environments variables.
                 </p>
+
+                <div class="mt-4">
+                  <h5 class="text-lg text-black underline">Example</h5>
+                  <!-- Code Block -->
+                  <div class="mt-5">
+                    <pre>
+              <div class="ml-5 flex">
+                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+              </div>
+              <code class="language-sh">
+    # simply create your bot token using Official Telegram bot called BotFather
+    BOT_TOKEN= 
+    #
+    DOMAIN=https://mybot.bot 
+    #
+    PORT=3000
+              </code> 
+            </pre>
+                  </div>
+                  <!-- Code Block -->
+                </div>
               </div>
 
               <div class="mt-5" id="package-pagination">
@@ -384,7 +401,7 @@
                     </span>
                     <nuxt-link
                       class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/suya/docs"
+                      to="/oss/telegraf-cli/docs"
                     >
                       #</nuxt-link
                     >
@@ -409,9 +426,9 @@
                     ></span>
                     <nuxt-link
                       class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/suya/docs/api"
+                      to="/oss/telegraf-cli/docs/usage"
                     >
-                      API
+                      Usage
                     </nuxt-link>
                   </div>
                 </div>
@@ -452,7 +469,7 @@
 export default {
   layout: 'oss',
   head: {
-    title: 'Suya - Getting Started',
+    title: 'Telegraf-CLI - Getting Started',
     meta: [{ name: 'description', content: '' }],
   },
   mounted: function () {

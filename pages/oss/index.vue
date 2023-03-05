@@ -19,16 +19,41 @@
                 <a
                   href="/oss/suya/docs"
                   class="text-lg font-bold leading-7 text-black"
-                  >Suya, a Simple, Fast Cache Middleware(s) for Express</a
+                  >Suya</a
                 >
                 <p class="mt-2 text-gray-700">
-                  A blazing-fast and strongly-typed express middleware(s) that
-                  adds caching layer on top of your express API response to
-                  improve performance.
+                  Suya is a blazing-fast and strongly-typed express
+                  middleware(s) that adds caching layer on top of your express
+                  API response to improve performance.
                 </p>
               </div>
               <nuxt-link
                 to="/oss/suya/docs"
+                class="mt-5 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white bg-purple-800 rounded shadow-md hover:bg-purple-900 focus:shadow-outline focus:outline-none"
+              >
+                View Documentation
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">
+            <div
+              class="flex flex-col flex-1 px-6 py-5 bg-white border border-gray-300 rounded-md"
+            >
+              <div class="flex-1">
+                <a
+                  href="/oss/telegraf-cli/docs"
+                  class="text-lg font-bold leading-7 text-black"
+                  >Telegraf-CLI</a
+                >
+                <p class="mt-2 text-gray-700">
+                  Telegraf-CLI is a command-line interface tool designed to
+                  simplify the development process for developers who are
+                  working with the Telegraf library.
+                </p>
+              </div>
+              <nuxt-link
+                to="/oss/telegraf-cli/docs"
                 class="mt-5 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white bg-purple-800 rounded shadow-md hover:bg-purple-900 focus:shadow-outline focus:outline-none"
               >
                 View Documentation

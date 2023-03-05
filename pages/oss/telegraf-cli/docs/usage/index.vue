@@ -3,9 +3,9 @@
     <div class="flex flex-wrap">
       <div class="w-full hidden lg:block lg:w-1/6 h-screen overflow-y-auto p-5">
         <h1 class="mt-3 tracking-widest font-bold">
-          <span class="text-gray-900">SUYA</span>
+          <span class="text-gray-900">Telegraf-CLI</span>
           <span class="text-purple-800">DOCS</span>
-          <small class="text-gray-900"> <small>V1.0.3</small></small>
+          <small class="text-gray-900"> <small>V1.0.0</small></small>
         </h1>
         <ul class="mt-5">
           <li class="text-black font-bold">#</li>
@@ -50,73 +50,53 @@
               <li class="mt-2">
                 <nuxt-link class="text-purple-800" to="">manual</nuxt-link>
               </li>
+              <li class="mt-2">
+                <nuxt-link class="text-purple-800" to=""
+                  >Configuration</nuxt-link
+                >
+              </li>
             </ul>
-
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Why Suya?</nuxt-link>
-            </li>
           </ul>
 
           <li class="mt-5 text-black font-bold">Usage</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Node.js</nuxt-link>
-            </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Redis</nuxt-link>
-            </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Memcached</nuxt-link>
-            </li>
-          </ul>
-
-          <li class="mt-5 text-black font-bold">API</li>
-          <ul class="ml-1">
-            <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >new Suya([options])</nuxt-link
+                >Available commands</nuxt-link
               >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">#forever()</nuxt-link>
+              <nuxt-link class="text-purple-800" to="">Usage 1</nuxt-link>
             </li>
             <li class="mt-2">
+              <nuxt-link class="text-purple-800" to="">Usage 2</nuxt-link>
+            </li>
+            <li class="mt-2">
+              <nuxt-link class="text-purple-800" to="">Usage 3</nuxt-link>
+            </li>
+          </ul>
+
+          <li class="mt-5 text-black font-bold">Bot Command</li>
+          <ul class="ml-1">
+            <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >#duration([n])</nuxt-link
+                >Create Command</nuxt-link
               >
             </li>
             <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >#resetOnMutation([options])</nuxt-link
+                >Register Command</nuxt-link
               >
             </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">#close()</nuxt-link>
-            </li>
           </ul>
 
-          <li class="mt-5 text-black font-bold">Error Handling</li>
+          <li class="mt-5 text-black font-bold">Start Bot</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Express.js</nuxt-link>
+              <nuxt-link class="text-purple-800" to="">Development</nuxt-link>
             </li>
-          </ul>
-
-          <li class="mt-5 text-black font-bold">Tests</li>
-          <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Benchmark</nuxt-link>
-              <ul class="ml-1">
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Node.js</nuxt-link>
-                </li>
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Redis</nuxt-link>
-                </li>
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Memcached</nuxt-link>
-                </li>
-              </ul>
+              <nuxt-link class="text-purple-800" to="">Production</nuxt-link>
             </li>
           </ul>
         </ul>
@@ -182,7 +162,15 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/getting-started"
+                  to="/oss/telegraf-cli/docs"
+                  >Home</nuxt-link
+                >
+              </div>
+              <div class="w-1/2 sm:w-1/3">
+                #
+                <nuxt-link
+                  class="text-purple-800 font-bold"
+                  to="/oss/telegraf-cli/docs/getting-started"
                   >Getting Started</nuxt-link
                 >
               </div>
@@ -190,7 +178,7 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/usage"
+                  to="/oss/telegraf-cli/docs/usage"
                   >Usage</nuxt-link
                 >
               </div>
@@ -198,24 +186,16 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/api"
-                  >API</nuxt-link
+                  to="/oss/telegraf-cli/docs/bot-command"
+                  >Bot Command</nuxt-link
                 >
               </div>
               <div class="w-1/2 sm:w-1/3">
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/error-handling"
-                  >Error Handling</nuxt-link
-                >
-              </div>
-              <div class="w-1/2 sm:w-1/3">
-                #
-                <nuxt-link
-                  class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/tests"
-                  >Tests</nuxt-link
+                  to="/oss/telegraf-cli/docs/start-bot"
+                  >Start Bot</nuxt-link
                 >
               </div>
             </div>
@@ -231,7 +211,7 @@
                   class="w-full py-2 pl-3 bg-gray-100 text-gray-900 focus:outline-none focus:bg-white border border-purple-300 rounded"
                   name=""
                   id=""
-                  placeholder="Search Suya Docs v1.0.3"
+                  placeholder="Search Telegraf-CLI Docs v1.0.3"
                 />
               </form>
             </div>
@@ -241,125 +221,157 @@
                 <h1
                   class="mt-10 text-2xl md:text-3xl lg:text-4xl text-black font-bold underline"
                 >
-                  # Getting Started
+                  # Usage
                 </h1>
-              </div>
 
-              <div class="mt-10" id="package-installation">
-                <h3 class="flex text-2xl text-black font-bold underline">
-                  Installation 🚀
-                </h3>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">npm</h4>
-                  <p class="mt-2 text-black">
-                    Installation through
-                    <a
-                      class="text-purple-800 font-bold"
-                      target="_blank"
-                      href="https://npmjs.com"
-                      >Node Package Manager</a
-                    >, NPM can be done as follows.
-                  </p>
-
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
-              </div>
-              <code class="language-sh">
-    # install through npm
-    $ npm i suya 
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">yarn</h4>
-                  <p class="mt-2 text-black">
-                    Installation through
-                    <a
-                      class="text-purple-800 font-bold"
-                      target="_blank"
-                      href="https://yarnpkg.com"
-                      >Yarn</a
-                    >
-                    can be done as follows.
-                  </p>
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span> 
-              </div>
-              <code class="language-sh">
-    # install through yarn
-    $ yarn add suya
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">manual</h4>
-                  <p class="mt-2 text-black">
-                    The manual installation involves cloning the project github
-                    repository and building the source code(s) written in
-                    TypeScript into vanilla JavaScript using tsc, TypeScript
-                    Compiler.
-                  </p>
-
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span> 
-              </div>
-              <code class="language-sh">
-    # clone the repo
-    $ git clone https://github.com/0xridwanobafunso/suya.git
-
-    # install dependencies
-    $ npm i
-
-    # build .ts source code(s) into .js source code(s)
-    $ tsc
-
-    # the compiled .js code(s) and it types definitions lives in /lib directory.
-    # require the index.js file
-    # const Cache = require('./lib/index.js')
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-              </div>
-
-              <div class="mt-10" id="package-installation">
-                <h3 class="flex text-2xl text-black font-bold underline">
-                  Why Suya? 😏
-                </h3>
-                <p class="mt-2 text-black">
-                  Short answer, <span class="font-bold">Performance</span>. If
-                  you want your Express.js API responses to be super-fast you
-                  should give suya a trial. There are various popular libraries
-                  that cache API responses but they are limited to
-                  <span class="font-bold">Redis</span> as their cache engine.
-                  What about developers' who loves Memcached? Suya works out of
-                  box with <span class="font-bold">Node.js Cache</span>,
-                  <span class="font-bold">Redis</span>, and
-                  <span class="font-bold">Memcached</span>.
+                <p class="mt-5 text-gray-900">
+                  Telegraf CLI can be used using
+                  <span class="font-bold">telegraf-cli</span> longhand or
+                  <span class="font-bold">tcli</span>
+                  shorthand.
                 </p>
+
+                <!-- Code Block -->
+                <pre class="mt-5 bg-gray-300 rounded-lg">
+                <div class="ml-3 flex -mt-3">
+                  <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                </div>
+                <code class="language-bash bg-white border border-gray-300 -mt-10 -mb-5"> 
+    $ telegraf-cli [command]
+    $ tcli [command]
+                </code> 
+            </pre>
+                <!-- Code Block -->
+              </div>
+
+              <div class="mt-10" id="nodejs-usage">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Available Commands 💪
+                </h3>
+
+                <pre class="mt-5 bg-gray-300 rounded-lg">
+                <div class="ml-3 flex -mt-3">
+                  <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                </div>
+                <code class="language-bash bg-white border border-gray-300 -mt-10 -mb-5"> 
+    -y, --yes                   Create new telegraf template (default)
+    -n, --new [name]            Create new telegraf template
+    -c, --create:command [name] Create new telegraf bot command
+    -v, --version               Output the version number
+    -h, --help                  Output usage information
+    -u, --update                Update telegraf-cli version
+                </code> 
+            </pre>
+              </div>
+
+              <div class="mt-10" id="nodejs-usage">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Usage 1
+                </h3>
+
+                <!-- Code Block -->
+                <pre class="mt-5 bg-gray-300 rounded-lg">
+                <div class="ml-3 flex -mt-3">
+                  <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                </div>
+                <code class="language-bash bg-white border border-gray-300 -mt-10 -mb-5">
+    # bootstrap project using the default template/boilerplate
+    $ tcli --yes
+
+    Generating Bot-f13038...
+      √ #1 Generate telegraf bot project
+      √ #2 Initialize a git repository
+      √ #3 Install dependencies
+
+    STEP 1:  Run the following command(s)
+    1.  cd Bot-f13038
+
+    STEP 2:  Configure Bot-f13038 project
+    1.  For development - create dev.env file and paste the content inside example.dev.env into it.
+    2.  For production -  create prod.env file and paste the content inside example.prod.env into it.
+    Open dev.env and prod.env and update your environments variables.
+
+    STEP 3:  Start Telegraf bot
+    1.  For development - npm run dev:bot
+    2.  For production -  npm run prod:bot
+
+    DONE
+                </code>
+            </pre>
+              </div>
+
+              <div class="mt-10" id="nodejs-usage">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Usage 2
+                </h3>
+
+                <!-- Code Block -->
+                <pre class="mt-5 bg-gray-300 rounded-lg">
+                <div class="ml-3 flex -mt-3">
+                  <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                </div>
+                <code class="language-bash bg-white border border-gray-300 -mt-10 -mb-5"> 
+    # bootstrap project using one's preferred choice
+    $ telegraf-cli --new PizzaBot
+
+    Generating PizzaBot...
+    ? Please choose which telegraf template to use? Simple
+    ? Please choose which Node.js server to use? None
+    ? Please choose which language to use? JavaScript
+    ? Initialize a git repository? No
+    ? Install dependencies? No
+      √ #1 Generate telegraf bot project
+
+    STEP 1:  Run the following command(s)
+    1.  cd PizzaBot
+    2.  git init
+    3.  npm i
+
+    STEP 2:  Configure PizzaBot project
+    1.  For development - create dev.env file and paste the content inside example.dev.env into it.
+    2.  For production -  create prod.env file and paste the content inside example.prod.env into it.
+    Open dev.env and prod.env and update your environments variables.
+
+    STEP 3:  Start Telegraf bot
+    1.  For development - npm run dev:bot
+    2.  For production -  npm run prod:bot
+
+    DONE
+                </code>
+            </pre>
+              </div>
+
+              <div class="mt-10" id="nodejs-usage">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Usage 3
+                </h3>
+
+                <!-- Code Block -->
+                <pre class="mt-5 bg-gray-300 rounded-lg">
+                <div class="ml-3 flex -mt-3">
+                  <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                  <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                </div>
+                <code class="language-bash bg-white border border-gray-300 -mt-10 -mb-5"> 
+    # create bot command
+    $ tcli --create:command orderPizza    
+    
+    Creating orderPizza command...
+
+    [INFO] Command orderPizza successfully generated.
+
+    DONE
+                </code>
+            </pre>
               </div>
 
               <div class="mt-5" id="package-pagination">
@@ -384,9 +396,9 @@
                     </span>
                     <nuxt-link
                       class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/suya/docs"
+                      to="/oss/telegraf-cli/docs/getting-started"
                     >
-                      #</nuxt-link
+                      Getting Started</nuxt-link
                     >
                   </div>
                   <div class="mt-2 w-full md:w-1/5"></div>
@@ -409,9 +421,9 @@
                     ></span>
                     <nuxt-link
                       class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/suya/docs/api"
+                      to="/oss/telegraf-cli/docs/bot-command"
                     >
-                      API
+                      Bot Command
                     </nuxt-link>
                   </div>
                 </div>
@@ -423,22 +435,13 @@
               <h1
                 class="text-gray-900 text-xl tracking-wider font-bold underline"
               >
-                # Getting Started
+                # Usage
               </h1>
               <p class="mt-3 text-gray-900">
-                Installation can be done through popular package manager such as
-                <a
-                  class="text-purple-800 font-bold"
-                  target="_blank"
-                  href="https://npmjs.com"
-                  >npm</a
-                >, and
-                <a
-                  class="text-purple-800 font-bold"
-                  target="_blank"
-                  href="https://yarnpkg.com"
-                  >yarn</a
-                >.
+                Telegraf CLI can be used using
+                <span class="font-bold">telegraf-cli</span> longhand or
+                <span class="font-bold">tcli</span>
+                shorthand.
               </p>
             </div>
           </div>
@@ -452,8 +455,8 @@
 export default {
   layout: 'oss',
   head: {
-    title: 'Suya - Getting Started',
-    meta: [{ name: 'description', content: '' }],
+    title: 'Telegraf-CLI - Usage',
+    meta: [],
   },
   mounted: function () {
     twemoji.parse(document.body, {

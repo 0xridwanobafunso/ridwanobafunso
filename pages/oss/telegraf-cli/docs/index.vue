@@ -3,9 +3,9 @@
     <div class="flex flex-wrap">
       <div class="w-full hidden lg:block lg:w-1/6 h-screen overflow-y-auto p-5">
         <h1 class="mt-3 tracking-widest font-bold">
-          <span class="text-gray-900">SUYA</span>
+          <span class="text-gray-900">Telegraf-CLI</span>
           <span class="text-purple-800">DOCS</span>
-          <small class="text-gray-900"> <small>V1.0.3</small></small>
+          <small class="text-gray-900"> <small>V1.0.0</small></small>
         </h1>
         <ul class="mt-5">
           <li class="text-black font-bold">#</li>
@@ -50,73 +50,53 @@
               <li class="mt-2">
                 <nuxt-link class="text-purple-800" to="">manual</nuxt-link>
               </li>
+              <li class="mt-2">
+                <nuxt-link class="text-purple-800" to=""
+                  >Configuration</nuxt-link
+                >
+              </li>
             </ul>
-
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Why Suya?</nuxt-link>
-            </li>
           </ul>
 
           <li class="mt-5 text-black font-bold">Usage</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Node.js</nuxt-link>
-            </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Redis</nuxt-link>
-            </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Memcached</nuxt-link>
-            </li>
-          </ul>
-
-          <li class="mt-5 text-black font-bold">API</li>
-          <ul class="ml-1">
-            <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >new Suya([options])</nuxt-link
+                >Available commands</nuxt-link
               >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">#forever()</nuxt-link>
+              <nuxt-link class="text-purple-800" to="">Usage 1</nuxt-link>
             </li>
             <li class="mt-2">
+              <nuxt-link class="text-purple-800" to="">Usage 2</nuxt-link>
+            </li>
+            <li class="mt-2">
+              <nuxt-link class="text-purple-800" to="">Usage 3</nuxt-link>
+            </li>
+          </ul>
+
+          <li class="mt-5 text-black font-bold">Bot Command</li>
+          <ul class="ml-1">
+            <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >#duration([n])</nuxt-link
+                >Create Command</nuxt-link
               >
             </li>
             <li class="mt-2">
               <nuxt-link class="text-purple-800" to=""
-                >#resetOnMutation([options])</nuxt-link
+                >Register Command</nuxt-link
               >
             </li>
-            <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">#close()</nuxt-link>
-            </li>
           </ul>
 
-          <li class="mt-5 text-black font-bold">Error Handling</li>
+          <li class="mt-5 text-black font-bold">Start Bot</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Express.js</nuxt-link>
+              <nuxt-link class="text-purple-800" to="">Development</nuxt-link>
             </li>
-          </ul>
-
-          <li class="mt-5 text-black font-bold">Tests</li>
-          <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Benchmark</nuxt-link>
-              <ul class="ml-1">
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Node.js</nuxt-link>
-                </li>
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Redis</nuxt-link>
-                </li>
-                <li class="mt-2">
-                  <nuxt-link class="text-purple-800" to="">Memcached</nuxt-link>
-                </li>
-              </ul>
+              <nuxt-link class="text-purple-800" to="">Production</nuxt-link>
             </li>
           </ul>
         </ul>
@@ -182,7 +162,15 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/getting-started"
+                  to="/oss/telegraf-cli/docs"
+                  >Home</nuxt-link
+                >
+              </div>
+              <div class="w-1/2 sm:w-1/3">
+                #
+                <nuxt-link
+                  class="text-purple-800 font-bold"
+                  to="/oss/telegraf-cli/docs/getting-started"
                   >Getting Started</nuxt-link
                 >
               </div>
@@ -190,7 +178,7 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/usage"
+                  to="/oss/telegraf-cli/docs/usage"
                   >Usage</nuxt-link
                 >
               </div>
@@ -198,24 +186,16 @@
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/api"
-                  >API</nuxt-link
+                  to="/oss/telegraf-cli/docs/bot-command"
+                  >Bot Command</nuxt-link
                 >
               </div>
               <div class="w-1/2 sm:w-1/3">
                 #
                 <nuxt-link
                   class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/error-handling"
-                  >Error Handling</nuxt-link
-                >
-              </div>
-              <div class="w-1/2 sm:w-1/3">
-                #
-                <nuxt-link
-                  class="text-purple-800 font-bold"
-                  to="/oss/suya/docs/tests"
-                  >Tests</nuxt-link
+                  to="/oss/telegraf-cli/docs/start-bot"
+                  >Start Bot</nuxt-link
                 >
               </div>
             </div>
@@ -231,7 +211,7 @@
                   class="w-full py-2 pl-3 bg-gray-100 text-gray-900 focus:outline-none focus:bg-white border border-purple-300 rounded"
                   name=""
                   id=""
-                  placeholder="Search Suya Docs v1.0.3"
+                  placeholder="Search Telegraf-CLI Docs v1.0.0"
                 />
               </form>
             </div>
@@ -241,156 +221,133 @@
                 <h1
                   class="mt-10 text-2xl md:text-3xl lg:text-4xl text-black font-bold underline"
                 >
-                  # Getting Started
+                  #
                 </h1>
+                <div class="mt-5 container max-w-screen-lg mx-auto">
+                  <img
+                    class="mx-auto object-cover"
+                    src="/tcli-logo.png"
+                    style="height: 380px; width: 400px"
+                    alt="Telegraf-CLI"
+                  />
+                </div>
               </div>
 
-              <div class="mt-10" id="package-installation">
+              <div class="mt-10" id="introduction">
                 <h3 class="flex text-2xl text-black font-bold underline">
-                  Installation 🚀
+                  Introduction 👋
                 </h3>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">npm</h4>
-                  <p class="mt-2 text-black">
-                    Installation through
-                    <a
-                      class="text-purple-800 font-bold"
-                      target="_blank"
-                      href="https://npmjs.com"
-                      >Node Package Manager</a
-                    >, NPM can be done as follows.
-                  </p>
-
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
-              </div>
-              <code class="language-sh">
-    # install through npm
-    $ npm i suya 
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">yarn</h4>
-                  <p class="mt-2 text-black">
-                    Installation through
-                    <a
-                      class="text-purple-800 font-bold"
-                      target="_blank"
-                      href="https://yarnpkg.com"
-                      >Yarn</a
-                    >
-                    can be done as follows.
-                  </p>
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span> 
-              </div>
-              <code class="language-sh">
-    # install through yarn
-    $ yarn add suya
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">manual</h4>
-                  <p class="mt-2 text-black">
-                    The manual installation involves cloning the project github
-                    repository and building the source code(s) written in
-                    TypeScript into vanilla JavaScript using tsc, TypeScript
-                    Compiler.
-                  </p>
-
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span> 
-              </div>
-              <code class="language-sh">
-    # clone the repo
-    $ git clone https://github.com/0xridwanobafunso/suya.git
-
-    # install dependencies
-    $ npm i
-
-    # build .ts source code(s) into .js source code(s)
-    $ tsc
-
-    # the compiled .js code(s) and it types definitions lives in /lib directory.
-    # require the index.js file
-    # const Cache = require('./lib/index.js')
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-              </div>
-
-              <div class="mt-10" id="package-installation">
-                <h3 class="flex text-2xl text-black font-bold underline">
-                  Why Suya? 😏
-                </h3>
-                <p class="mt-2 text-black">
-                  Short answer, <span class="font-bold">Performance</span>. If
-                  you want your Express.js API responses to be super-fast you
-                  should give suya a trial. There are various popular libraries
-                  that cache API responses but they are limited to
-                  <span class="font-bold">Redis</span> as their cache engine.
-                  What about developers' who loves Memcached? Suya works out of
-                  box with <span class="font-bold">Node.js Cache</span>,
-                  <span class="font-bold">Redis</span>, and
-                  <span class="font-bold">Memcached</span>.
+                <p class="mt-2 text-gray-800">
+                  Telegraf-CLI is a command-line interface tool designed to
+                  simplify the development process for developers who are
+                  working with the Telegraf library. The Telegraf library is a
+                  popular framework for building Telegram bots, and Telegraf-CLI
+                  provides developers with a streamlined way to generate
+                  boilerplate code for their projects and to generate bot
+                  commands.
                 </p>
+                <p class="mt-2 text-gray-800">
+                  With Telegraf-CLI, developers can save time and effort by
+                  automating the creation of basic project structures and
+                  boilerplate code. This means they can focus more on the
+                  development of their Telegram bots, rather than spending time
+                  setting up their development environment.
+                </p>
+              </div>
+
+              <div class="mt-10" id="feature">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Features 💪
+                </h3>
+                <ul class="mt-2 text-gray-800 list-disc ml-5">
+                  <li>Generate Basic Project Structures</li>
+                  <li>
+                    JavaScript Template/Boilerplate (TypeScript coming soon)
+                  </li>
+                  <li>
+                    Work out of box with different Node.js server (Express, Koa,
+                    Fastify)
+                  </li>
+                  <li>Development and Production Ready</li>
+                  <li>More Coming...</li>
+                </ul>
+              </div>
+
+              <div class="mt-10" id="special-thanks">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Special Thanks 👏
+                </h3>
+                <p class="my-2 text-gray-800">
+                  Thanks to all the amazing contributors.
+                </p>
+                <ul class="text-gray-800 list-disc ml-5">
+                  <li>
+                    <a
+                      class="text-purple-800"
+                      href="https://github.com/0xridwanobafunso"
+                      >Obafunso Ridwan A.</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="mt-10" id="repository">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Repository 😎
+                </h3>
+                <p class="my-2 text-gray-800">
+                  Source code(s), license and other document(s) related to this
+                  project can be found on
+                  <a
+                    class="text-purple-800 font-bold"
+                    target="_blank"
+                    href="https://github.com/0xridwanobafunso/telegraf-cli"
+                    >GitHub</a
+                  >. A <span class="font-bold">star</span> on the repository
+                  means alot to me.
+                </p>
+              </div>
+
+              <div class="mt-10" id="changelog">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Changelog 🚴‍♂️
+                </h3>
+                <ul class="mt-2 text-gray-800 list-disc ml-5">
+                  <li>
+                    v1.0.0 Commit all source codes, release tags and published
+                    to NPM using GitHub Action.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="mt-10" id="versioning">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Versioning 🎯
+                </h3>
+                <p class="my-2 text-gray-800">
+                  I use <b>SemVer</b> for versioning.
+                </p>
+              </div>
+
+              <div class="mt-10" id="package-thanks">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  Share 🙏
+                </h3>
+                <p class="my-2 text-gray-800">
+                  Don't forget to share with your colleagues at your workplace.
+                </p>
+              </div>
+
+              <div class="mt-10 flex text-gray-700 items-center justify-center">
+                <span class="text-5xl">🎊</span>
+                <span class="text-xl font-bold">So, Let's Dive In.</span>
               </div>
 
               <div class="mt-5" id="package-pagination">
                 <div class="flex flex-wrap w-full">
-                  <div class="mt-2 w-full md:w-2/5">
-                    <span class="flex text-black text-xs float-left">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="mt-2 mr-2 h-3 w-3"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M10 19l-7-7m0 0l7-7m-7 7h18"
-                        />
-                      </svg>
-                      Prev
-                    </span>
-                    <nuxt-link
-                      class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/suya/docs"
-                    >
-                      #</nuxt-link
-                    >
-                  </div>
-                  <div class="mt-2 w-full md:w-1/5"></div>
-                  <div class="mt-2 w-full md:w-2/5">
+                  <div class="w-full md:w-2/5"></div>
+                  <div class="w-full md:w-1/5"></div>
+                  <div class="w-full md:w-2/5">
                     <span class="flex text-black text-xs float-right"
                       >Next
                       <svg
@@ -409,9 +366,9 @@
                     ></span>
                     <nuxt-link
                       class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/suya/docs/api"
+                      to="/oss/telegraf-cli/docs/getting-started"
                     >
-                      API
+                      Getting Started
                     </nuxt-link>
                   </div>
                 </div>
@@ -423,22 +380,12 @@
               <h1
                 class="text-gray-900 text-xl tracking-wider font-bold underline"
               >
-                # Getting Started
+                # Introduction to Telegraf-CLI
               </h1>
               <p class="mt-3 text-gray-900">
-                Installation can be done through popular package manager such as
-                <a
-                  class="text-purple-800 font-bold"
-                  target="_blank"
-                  href="https://npmjs.com"
-                  >npm</a
-                >, and
-                <a
-                  class="text-purple-800 font-bold"
-                  target="_blank"
-                  href="https://yarnpkg.com"
-                  >yarn</a
-                >.
+                Telegraf-CLI is a command-line interface tool designed to
+                simplify the development process for developers who are working
+                with the Telegraf library.
               </p>
             </div>
           </div>
@@ -452,16 +399,49 @@
 export default {
   layout: 'oss',
   head: {
-    title: 'Suya - Getting Started',
-    meta: [{ name: 'description', content: '' }],
+    title:
+      'Telegraf-CLI - Command line interface tool designed to simplify the development process for Telegraf developer',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Telegraf-CLI is a command-line interface tool designed to simplify the development process for developers who are working with the Telegraf library.',
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'open.source.software',
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'ridwanobafunso',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content:
+          'Telegraf-CLI - Command line interface tool designed to simplify the development process for Telegraf developer',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'Telegraf-CLI is a command-line interface tool designed to simplify the development process for developers who are working with the Telegraf library.',
+      },
+      {
+        hid: 'og:host',
+        name: 'og:host',
+        content: 'https://oss.ridwanobafunso.com',
+      },
+    ],
   },
   mounted: function () {
     twemoji.parse(document.body, {
       folder: 'svg',
       ext: '.svg',
     })
-
-    hljs.highlightAll()
   },
   data: function () {
     return {
