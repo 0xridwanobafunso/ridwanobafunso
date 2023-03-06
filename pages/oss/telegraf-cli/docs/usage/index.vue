@@ -252,7 +252,6 @@
 
           <div class="mt-3" v-show="state">
             <div class="flex flex-wrap">
-              <div class="w-1/2 sm:w-1/3">#</div>
               <div class="w-1/2 sm:w-1/3">
                 #
                 <nuxt-link
