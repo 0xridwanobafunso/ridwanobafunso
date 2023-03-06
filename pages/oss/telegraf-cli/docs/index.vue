@@ -416,11 +416,11 @@
                 </h3>
                 <ul class="mt-2 text-gray-800 list-disc ml-5">
                   <li>
-                    v1.0.1 patched some bugs, and also move documentation out of
+                    v1.0.1 - patched some bugs, and also move documentation out of
                     github
                   </li>
                   <li>
-                    v1.0.0 Commit all source codes, release tags and published
+                    v1.0.0 - Commit all source codes, release tags and published
                     to NPM using GitHub Action.
                   </li>
                 </ul>
