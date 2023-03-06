@@ -416,7 +416,7 @@
     # the compiled .js code(s) and it types definitions lives in /dist directory.
     
     # symlink the cli
-    $ npm run link
+    $ npm link
 
     # check if tcli or telegraf-cli commands available
     $ tcli --version
