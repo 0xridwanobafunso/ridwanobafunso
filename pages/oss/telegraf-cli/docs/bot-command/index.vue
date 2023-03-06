@@ -293,6 +293,14 @@
                   >Start Bot</nuxt-link
                 >
               </div>
+              <div class="w-1/2 sm:w-1/3">
+                #
+                <nuxt-link
+                  class="text-purple-800 font-bold"
+                  to="/oss/telegraf-cli/docs/deployment"
+                  >Deployment</nuxt-link
+                >
+              </div>
             </div>
           </div>
         </div>
