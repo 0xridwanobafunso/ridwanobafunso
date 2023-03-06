@@ -94,7 +94,7 @@
               3.61/4.00 after his Higher National Diploma (HND) Programme at the
               Polytechnic.
             </p>
-            <p class="mt-2">
+            <p class="mt-3">
               He was honored with an overall best graduating student award
               (Computer Science) at Federal Polytechnic, Ilaro in 2019 with a
               CGPA of 3.71/4.00 after his National Diploma (ND) Programme at the

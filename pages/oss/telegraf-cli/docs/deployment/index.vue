@@ -316,162 +316,71 @@
                 <h1
                   class="mt-10 text-2xl md:text-3xl lg:text-4xl text-black font-bold underline"
                 >
-                  # Getting Started
+                  # Deployment
                 </h1>
+
+                <p class="mt-5 text-gray-900"></p>
               </div>
 
-              <div class="mt-10" id="package-installation">
+              <div class="mt-10" id="nodejs-usage">
                 <h3 class="flex text-2xl text-black font-bold underline">
-                  Installation 🚀
+                  Digitalocean
                 </h3>
+                <p class="mt-2 text-black">Coming soon...</p>
 
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">npm</h4>
-                  <p class="mt-2 text-black">
-                    Installation through
-                    <a
-                      class="text-purple-800 font-bold"
-                      target="_blank"
-                      href="https://npmjs.com"
-                      >Node Package Manager</a
-                    >, NPM can be done as follows.
-                  </p>
-
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
-              </div>
-              <code class="language-sh">
-    # through npm
-    $ npm i telegraf-cli -g
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">yarn</h4>
-                  <p class="mt-2 text-black">
-                    Installation through
-                    <a
-                      class="text-purple-800 font-bold"
-                      target="_blank"
-                      href="https://yarnpkg.com"
-                      >Yarn</a
-                    >
-                    can be done as follows.
-                  </p>
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span> 
-              </div>
-              <code class="language-sh">
-    # through yarn
-    $ yarn add telegraf-cli -g
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
-
-                <div class="mt-5">
-                  <h4 class="text-xl text-black underline">manual</h4>
-                  <p class="mt-2 text-black">
-                    The manual installation involves cloning the project github
-                    repository and building the source code(s) written in
-                    TypeScript into vanilla JavaScript using tsc, TypeScript
-                    Compiler.
-                  </p>
-
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span> 
-              </div>
-              <code class="language-sh">
-    # clone the repo
-    $ git clone https://github.com/0xridwanobafunso/telegraf-cli.git
-
-    # install TypeScript Compiler
-    $ npm i typescript -g
-
-    # install telegraf-cli dependencies
-    $ npm i
-
-    # build .ts source code(s) into .js source code(s)
-    $ npm run build
-
-    # the compiled .js code(s) and it types definitions lives in /dist directory.
-    
-    # symlink the cli
-    $ npm run link
-
-    # check if tcli or telegraf-cli commands available
-    $ tcli --version
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
+                <!-- Code Block -->
+                <!-- <pre class="mt-5 bg-gray-300 rounded-lg">
+                      <div class="ml-3 flex -mt-3">
+                        <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                        <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                        <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                      </div>
+                      <code class="language-sh bg-white border border-gray-300 -mt-10 -mb-5"> 
+      # for development
+      npm run dev:bot
+                      </code>
+                  </pre> -->
+                <!-- Code Block -->
               </div>
 
-              <div class="mt-5">
-                <h4 class="text-xl text-black underline">Configuration</h4>
-                <ul class="mt-2 list-disc ml-5">
-                  <li>
-                    For development: create
-                    <span class="font-bold">dev.env</span> file and paste the
-                    content inside
-                    <span class="font-bold">example.dev.env</span> into it.
-                  </li>
-                  <li>
-                    For production: create
-                    <span class="font-bold">prod.env</span> file and paste the
-                    content inside
-                    <span class="font-bold">example.prod.env</span> into it.
-                  </li>
-                </ul>
+              <div class="mt-10" id="nodejs-usage">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  AWS
+                </h3>
+                <p class="mt-2 text-black">Coming soon...</p>
 
-                <p class="mt-2">
-                  Open <span class="font-bold">dev.env</span> and
-                  <span class="font-bold">prod.env</span> and update your
-                  environments variables.
-                </p>
-
-                <div class="mt-4">
-                  <h5 class="text-lg text-black underline">Example</h5>
-                  <!-- Code Block -->
-                  <div class="mt-5">
-                    <pre>
-              <div class="ml-5 flex">
-                <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
-                <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                <!-- Code Block -->
+                <!-- <pre class="mt-5 bg-gray-300 rounded-lg">
+                      <div class="ml-3 flex -mt-3">
+                        <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                        <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                        <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                      </div>
+                      <code class="language-sh bg-white border border-gray-300 -mt-10 -mb-5">
+      # for production
+      npm run prod:bot
+                      </code>
+                  </pre> -->
               </div>
-              <code class="language-sh">
-    # simply create your bot token using official Telegram bot called BotFather (https://t.me/BotFather)
-    BOT_TOKEN=GGSUSUygDISBE_qJ0xY6rwty7PJYPAQZPcD0U
-    # webhook
-    WEBHOOK=https://mybot-domain.com
-    # port
-    PORT=5000
-              </code> 
-            </pre>
-                  </div>
-                  <!-- Code Block -->
-                </div>
+
+              <div class="mt-10" id="nodejs-usage">
+                <h3 class="flex text-2xl text-black font-bold underline">
+                  AWS
+                </h3>
+                <p class="mt-2 text-black">Coming soon...</p>
+
+                <!-- Code Block -->
+                <!-- <pre class="mt-5 bg-gray-300 rounded-lg">
+                      <div class="ml-3 flex -mt-3">
+                        <span class="font-bolder bg-red-500 p-2 rounded-full"></span>
+                        <span class="ml-2 font-bolder bg-green-500 p-2 rounded-full"></span>
+                        <span class="ml-2 font-bolder bg-yellow-500 p-2 rounded-full"></span>
+                      </div>
+                      <code class="language-sh bg-white border border-gray-300 -mt-10 -mb-5">
+      # for production
+      npm run prod:bot
+                      </code>
+                  </pre> -->
               </div>
 
               <div class="mt-5" id="package-pagination">
@@ -496,36 +405,13 @@
                     </span>
                     <nuxt-link
                       class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/telegraf-cli/docs"
+                      to="/oss/telegraf-cli/docs/start-bot"
                     >
-                      #</nuxt-link
+                      Start Bot</nuxt-link
                     >
                   </div>
                   <div class="mt-2 w-full md:w-1/5"></div>
-                  <div class="mt-2 w-full md:w-2/5">
-                    <span class="flex text-black text-xs float-right"
-                      >Next
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="mt-2 ml-2 h-3 w-3"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        /></svg
-                    ></span>
-                    <nuxt-link
-                      class="inline-flex items-center justify-center w-full h-12 px-6 mt-2 font-medium tracking-wide text-gray-800 border border-purple-500 rounded shadow-lg hover:border-purple-700 focus:shadow-outline focus:outline-none"
-                      to="/oss/telegraf-cli/docs/usage"
-                    >
-                      Usage
-                    </nuxt-link>
-                  </div>
+                  <div class="mt-2 w-full md:w-2/5"></div>
                 </div>
               </div>
             </div>
@@ -535,23 +421,9 @@
               <h1
                 class="text-gray-900 text-xl tracking-wider font-bold underline"
               >
-                # Getting Started
+                # Deployment
               </h1>
-              <p class="mt-3 text-gray-900">
-                Installation can be done through popular package manager such as
-                <a
-                  class="text-purple-800 font-bold"
-                  target="_blank"
-                  href="https://npmjs.com"
-                  >npm</a
-                >, and
-                <a
-                  class="text-purple-800 font-bold"
-                  target="_blank"
-                  href="https://yarnpkg.com"
-                  >yarn</a
-                >.
-              </p>
+              <p class="mt-3 text-gray-900"></p>
             </div>
           </div>
         </div>
@@ -564,8 +436,8 @@
 export default {
   layout: 'oss',
   head: {
-    title: 'Telegraf-CLI - Getting Started',
-    meta: [{ name: 'description', content: '' }],
+    title: 'Telegraf-CLI - Bot Command',
+    meta: [],
   },
   mounted: function () {
     twemoji.parse(document.body, {

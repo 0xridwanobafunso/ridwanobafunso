@@ -11,47 +11,91 @@
           <li class="text-black font-bold">#</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Introduction</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs#introduction"
+                >Introduction</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Features</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs#features"
+                >Features</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to=""
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs#special-thanks"
                 >Special Thanks</nuxt-link
               >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Repository</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs#repository"
+                >Repository</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Changelog</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs#changelog"
+                >Changelog</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Versioning</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs#versioning"
+                >Versioning</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Share</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs#share"
+                >Share</nuxt-link
+              >
             </li>
           </ul>
 
           <li class="mt-5 text-black font-bold">Getting Started</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Installation</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/getting-started#installation"
+                >Installation</nuxt-link
+              >
             </li>
             <ul class="ml-1">
               <li class="mt-2">
-                <nuxt-link class="text-purple-800" to="">npm</nuxt-link>
+                <nuxt-link
+                  class="text-purple-800"
+                  to="/oss/telegraf-cli/docs/getting-started#npm"
+                  >npm</nuxt-link
+                >
               </li>
               <li class="mt-2">
-                <nuxt-link class="text-purple-800" to="">yarn</nuxt-link>
+                <nuxt-link
+                  class="text-purple-800"
+                  to="/oss/telegraf-cli/docs/getting-started#yarn"
+                  >yarn</nuxt-link
+                >
               </li>
               <li class="mt-2">
-                <nuxt-link class="text-purple-800" to="">manual</nuxt-link>
+                <nuxt-link
+                  class="text-purple-800"
+                  to="/oss/telegraf-cli/docs/getting-started#manual"
+                  >manual</nuxt-link
+                >
               </li>
               <li class="mt-2">
-                <nuxt-link class="text-purple-800" to=""
+                <nuxt-link
+                  class="text-purple-800"
+                  to="/oss/telegraf-cli/docs/getting-started#configuration"
                   >Configuration</nuxt-link
                 >
               </li>
@@ -61,30 +105,48 @@
           <li class="mt-5 text-black font-bold">Usage</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to=""
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/usage#available-commands"
                 >Available commands</nuxt-link
               >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Usage 1</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/usage#usage-1"
+                >Usage 1</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Usage 2</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/usage#usage-2"
+                >Usage 2</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Usage 3</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/usage#usage-3"
+                >Usage 3</nuxt-link
+              >
             </li>
           </ul>
 
           <li class="mt-5 text-black font-bold">Bot Command</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to=""
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/bot-command#create-command"
                 >Create Command</nuxt-link
               >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to=""
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/bot-command#register-command"
                 >Register Command</nuxt-link
               >
             </li>
@@ -93,10 +155,43 @@
           <li class="mt-5 text-black font-bold">Start Bot</li>
           <ul class="ml-1">
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Development</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/start-bot#development"
+                >Development</nuxt-link
+              >
             </li>
             <li class="mt-2">
-              <nuxt-link class="text-purple-800" to="">Production</nuxt-link>
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/start-bot#production"
+                >Production</nuxt-link
+              >
+            </li>
+          </ul>
+
+          <li class="mt-5 text-black font-bold">Deployment</li>
+          <ul class="ml-1">
+            <li class="mt-2">
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/deployment#digitalocean"
+                >Digitalocean</nuxt-link
+              >
+            </li>
+            <li class="mt-2">
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/deployment#aws"
+                >AWS</nuxt-link
+              >
+            </li>
+            <li class="mt-2">
+              <nuxt-link
+                class="text-purple-800"
+                to="/oss/telegraf-cli/docs/deployment#glitch"
+                >Glitch.com</nuxt-link
+              >
             </li>
           </ul>
         </ul>
@@ -157,7 +252,6 @@
 
           <div class="mt-3" v-show="state">
             <div class="flex flex-wrap">
-              <div class="w-1/2 sm:w-1/3">#</div>
               <div class="w-1/2 sm:w-1/3">
                 #
                 <nuxt-link
@@ -196,6 +290,14 @@
                   class="text-purple-800 font-bold"
                   to="/oss/telegraf-cli/docs/start-bot"
                   >Start Bot</nuxt-link
+                >
+              </div>
+              <div class="w-1/2 sm:w-1/3">
+                #
+                <nuxt-link
+                  class="text-purple-800 font-bold"
+                  to="/oss/telegraf-cli/docs/deployment"
+                  >Deployment</nuxt-link
                 >
               </div>
             </div>
@@ -255,7 +357,7 @@
                 </p>
               </div>
 
-              <div class="mt-10" id="feature">
+              <div class="mt-10" id="features">
                 <h3 class="flex text-2xl text-black font-bold underline">
                   Features 💪
                 </h3>
@@ -329,7 +431,7 @@
                 </p>
               </div>
 
-              <div class="mt-10" id="package-thanks">
+              <div class="mt-10" id="share">
                 <h3 class="flex text-2xl text-black font-bold underline">
                   Share 🙏
                 </h3>
